@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Imagem</title>
+</head>
+
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivo diferentes
+        ou simplesmente aumentando o diminuindo o tamanho so seu navegador.
+    </p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagem/foto1.png" type="imagem/png">
+        <source media="(max-width: 1050px )" srcset="imagem/foto2.png" type="imagem/png">
+        <img src="imagem/foto3.png" alt="imagem flexivel">
+    </picture>
+    <!--Esse exercicio e para mudar imagens de tamanho quando tiver em outro dispositivo
+mundando tela quando for necessario -->
+    <h1>Reprodusir audio</h1>
+    <p>Vamos aprender reprodusir audio no HTML5</p>
+    <audio src="midia/anos90.mp3" controls autoplay></audio>
+    <!--Esse é uma maneira de fazer essa maneira 
+    serve para navegadores qua aceita mp3 caso não tera fazer outra maneira logo abaixo-->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/anos90.mp3" type="audio/mpeg">
+        <source src="midia/anos90.ogg" type="audio/ogg">
+        <source src="midia/anos90.way" type="audio/way">
+
+    </audio>
+
+</body>
+
+</html>

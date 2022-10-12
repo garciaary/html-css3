@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-image: linear-gradient(to right, #2180A6, #C7D9D1);
+}
+
+main {
+    background-color: aliceblue;
+    border-radius: 20px;
+    /* Para quevrar as bordas retas para ficar mais redondadas*/
+    box-shadow: 5px 5px 15px #2c2d2f;
+    /* Para dar sobriamento na pagina */
+    width: 600px;
+    /* Para não ocupar largura inteira da jagina você usa width */
+    padding: 10px;
+    /* Para dar espaçamento da pagina usar padding */
+    margin: auto;
+    /* Para colocar conteudo na pagina no centro usar margin auto */
+
+}
+
+h1 {
+    color: #1C4D8C;
+    text-align: center;/*Serve para centralisar seu texto*/
+    
+}
+
+h2 {
+    color: #6BBFB0;
+}
+
+p {
+    text-align: justify;
+}

@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*
+em HTML é o Id no Css usa #
+em Html o class no Css e .
+*/
+
+body{
+    background-color: rgb(236, 12, 113);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+color: blue;
+
+}
+.basico{
+    text-align: center;
+    background-color: azure;
+}
+
+h2{
+color: coral;
+
+}
+.intermediario{
+    background-color: rgb(55, 147, 147);
+}
+.avançado{
+
+    background-color: rgb(26, 159, 159);
+}
+
+.destaque{
+    background-color: gold;
+}
